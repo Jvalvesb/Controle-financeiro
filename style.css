@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.resumo {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.cartao {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.nova-movimentacao {
+    margin-top: 30px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input,
+select,
+button {
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+input,
+select {
+    border: 1px solid #cbd5e1;
+}
+button {
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+.movimentacoes {
+    margin-top: 30px;
+}
+#lista-movimentacoes {
+    list-style: none;
+    padding: 0;
+}
+#lista-movimentacoes li {
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+#lista-movimentacoes li.receita {
+    border-left: 5px solid #16a34a;
+}
+#lista-movimentacoes li.despesa {
+    border-left: 5px solid #dc2626;
+}
+@media (max-width: 600px) {
+    .resumo {
+        flex-direction: column;
+    }
+}
