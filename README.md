@@ -6,7 +6,7 @@ Registro de entradas e saídas
 Cálculo de saldo
 Listagem de movimentações
 
-Tecnologias:
+Linguagens:
 HTML, CSS, JavaScript
 
 Como executar:
